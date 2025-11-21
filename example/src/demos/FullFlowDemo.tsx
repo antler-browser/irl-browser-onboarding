@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { IrlOnboarding } from '@irl-browser/onboarding/react'
+import { IrlOnboarding } from 'irl-browser-onboarding/react'
 
 type Mode = 'choice' | 'download-prompt'
 

@@ -22,7 +22,7 @@ This allows you to skip building user management and authentication systems. Use
 ## Installation
 
 ```bash
-npm install @irl-browser/onboarding
+npm install irl-browser-onboarding
 ```
 
 ## Quick Start
@@ -30,7 +30,7 @@ npm install @irl-browser/onboarding
 ### React
 
 ```tsx
-import { IrlOnboarding } from '@irl-browser/onboarding/react'
+import { IrlOnboarding } from 'irl-browser-onboarding/react'
 
 function App() {
   const hasIrlBrowser = typeof window !== 'undefined' && window.irlBrowser
@@ -56,7 +56,7 @@ function App() {
 ### Vanilla JavaScript
 
 ```js
-import { createOnboarding } from '@irl-browser/onboarding'
+import { createOnboarding } from 'irl-browser-onboarding'
 
 const onboarding = createOnboarding({
   container: '#onboarding-root',
@@ -180,7 +180,7 @@ interface CreateAccountFlowProps {
 Hook for detecting IRL Browser status and determining whether to show onboarding.
 
 ```tsx
-import { useIrlOnboarding } from '@irl-browser/onboarding/react'
+import { useIrlOnboarding } from 'irl-browser-onboarding/react'
 
 const { shouldShowOnboarding, profile, isLoading } = useIrlOnboarding()
 
@@ -199,7 +199,7 @@ const { shouldShowOnboarding, profile, isLoading } = useIrlOnboarding()
 Hook for accessing the current user profile.
 
 ```tsx
-import { useProfile } from '@irl-browser/onboarding/react'
+import { useProfile } from 'irl-browser-onboarding/react'
 
 const profile = useProfile()
 // Returns Profile | null
@@ -215,19 +215,19 @@ import {
   updateProfile,
   hasProfile,
   clearProfile
-} from '@irl-browser/onboarding'
+} from 'irl-browser-onboarding'
 
 // Device detection
 import {
   isIRLBrowser
-} from '@irl-browser/onboarding'
+} from 'irl-browser-onboarding'
 
 // Social validation
 import {
   validateHandle,
   normalizeHandle,
   createSocialLink
-} from '@irl-browser/onboarding'
+} from 'irl-browser-onboarding'
 ```
 
 ## Storage
@@ -300,5 +300,5 @@ import type {
   SocialPlatform,
   IRLBrowser,
   CustomStyles
-} from '@irl-browser/onboarding'
+} from 'irl-browser-onboarding'
 ```

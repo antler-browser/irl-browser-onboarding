@@ -15,7 +15,7 @@ import {
   type Profile,
   type SocialPlatform,
   type SocialLink,
-} from '@irl-browser/onboarding'
+} from 'irl-browser-onboarding'
 
 function CoreApiDemo() {
   const [output, setOutput] = useState<string>('')

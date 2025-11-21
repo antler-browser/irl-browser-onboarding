@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-`@irl-browser/onboarding` is a TypeScript library providing onboarding UI for IRL Browser mini-apps. It enables users without the IRL Browser/Antler app to either download the app OR create a one-time web-based account using decentralized identity (DID).
+`irl-browser-onboarding` is a TypeScript library providing onboarding UI for IRL Browser mini-apps. It enables users without the IRL Browser/Antler app to either download the app OR create a one-time web-based account using decentralized identity (DID).
 
 ## Common Commands
 
@@ -126,3 +126,10 @@ When the user opens a mini-app:
 - `base58-universal`: Base58 encoding for DID identifiers
 - `base64-js`: Base64 encoding/decoding for JWTs
 - `react`: Peer dependency for React bindings only
+
+## Publishing
+- `npm version <major|minor|patch>`
+- `git push origin develop && git checkout main && git merge develop && git push origin main && git checkout develop`
+- `git push --tags`
+- `npm publish`
+- `gh release create v<version> --generate-notes`

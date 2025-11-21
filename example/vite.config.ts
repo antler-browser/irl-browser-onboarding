@@ -9,8 +9,8 @@ export default defineConfig({
   },
   resolve: {
     alias: [
-      { find: /^@irl-browser\/onboarding\/react$/, replacement: path.resolve(__dirname, '../dist/react.js') },
-      { find: /^@irl-browser\/onboarding$/, replacement: path.resolve(__dirname, '../dist/index.js') },
+      { find: /^irl-browser-onboarding\/react$/, replacement: path.resolve(__dirname, '../dist/react.js') },
+      { find: /^irl-browser-onboarding$/, replacement: path.resolve(__dirname, '../dist/index.js') },
     ],
   },
 })

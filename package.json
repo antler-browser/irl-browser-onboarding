@@ -1,5 +1,5 @@
 {
-  "name": "@irl-browser/onboarding",
+  "name": "irl-browser-onboarding",
   "version": "1.0.0",
   "description": "Onboarding UI for IRL Browser mini-apps - download app or create one-time account",
   "author": "Daniel Mathews <danny@antlerbrowser.com>",

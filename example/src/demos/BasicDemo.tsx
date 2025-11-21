@@ -1,4 +1,4 @@
-import { useIrlOnboarding, useProfile } from '@irl-browser/onboarding/react'
+import { useIrlOnboarding, useProfile } from 'irl-browser-onboarding/react'
 
 function BasicDemo() {
   const { shouldShowOnboarding, profile, isLoading } = useIrlOnboarding()

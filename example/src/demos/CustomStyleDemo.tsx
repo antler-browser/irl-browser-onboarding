@@ -1,4 +1,4 @@
-import { IrlOnboarding } from '@irl-browser/onboarding/react'
+import { IrlOnboarding } from 'irl-browser-onboarding/react'
 import { useState } from 'react'
 
 function CustomStyleDemo() {
