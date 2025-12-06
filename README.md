@@ -6,7 +6,7 @@ This allows you to skip building user management and authentication systems. Use
 
 ## Demo
 
-![IRL Browser Onboarding Demo](https://github.com/antler/irl-browser-onboarding/blob/main/demo.gif?raw=true)
+![IRL Browser Onboarding Demo](https://github.com/antler-browser/irl-browser-onboarding/blob/main/demo.gif?raw=true)
 
 
 ## Features
